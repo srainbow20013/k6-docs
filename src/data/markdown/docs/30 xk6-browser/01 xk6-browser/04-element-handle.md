@@ -3,7 +3,13 @@ title: "ElementHandle"
 excerpt: "xk6-browser: ElementHandle Class"
 ---
 
-<BrowserCompatibility/>
+<Blockquote mod="warning">
+
+The use of `ElementHandle` is discouraged, use [Locator](/javascript-api/xk6-browser/locator/) objects instead.
+
+</Blockquote>
+
+### Example
 
 ```javascript
 import launcher from 'k6/x/browser';
